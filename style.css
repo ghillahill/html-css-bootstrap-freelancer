@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.h1, h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: #2C3E50;
+    border-color: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-brand {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #1ABC9C;
+    background-color: transparent;
+}
+
+/*_____Fine Navbar_____*/
+
+/*_____Inizio Jumbo_____*/
+
+.jumbotron {
+    background-color: #1ABC9C;
+    text-align: center;
+}
+
+.img-responsive {
+    max-width: 240px;
+}
+
+
+/*_____Fine Jumbo_____*/
+
+@media (min-width: 420px){
+
+    .navbar-default .navbar-brand {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px){
+
+    .navbar {
+        border-radius: 0;
+    }
+}
