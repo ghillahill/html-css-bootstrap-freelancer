@@ -1,15 +1,27 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: #fff;
+}
+
+.distances {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .h1, h1 {
     font-size: 45px;
+    font-weight: 700;
     text-transform: uppercase;
+}
+
+p {
+    font-weight: 400;
 }
 
 .navbar {
     border: none;
+    border-radius: 0;
     margin-bottom: 0;
 }
 
@@ -52,8 +64,27 @@ body {
     text-align: center;
 }
 
+.jumbotron p {
+    font-size: 25px;
+}
+
 .img-responsive {
     max-width: 240px;
+}
+
+.line-divider {
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.glyphicon-star {
+    font-size: 35px;
+    vertical-align: middle;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 
@@ -66,9 +97,10 @@ body {
     }
 }
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
 
-    .navbar {
-        border-radius: 0;
+    .jumbotron {
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 }
