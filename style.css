@@ -7,6 +7,14 @@ body {
     padding-top: 70px;
 }
 
+#about .container {
+    max-width: 50%;
+}
+
+#contact .container {
+    max-width: 50%;
+}
+
 .distances {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -21,6 +29,31 @@ body {
     background-color: transparent;
     border: none;
     border-radius: 20px;
+}
+
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    padding: 25px 12px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    border-left: none;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 20px;
+    color: black;
+}
+
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid grey;
 }
 
 .style-one {
@@ -147,7 +180,7 @@ p {
 
 /*_____Inizio Main_____*/
 
-.main p {
+#main p {
     font-size: 25px;
 }
 
@@ -159,11 +192,11 @@ p {
 
 /*_____Inizio Portfolio_____*/
 
-.portfolio .line-divider {
+#portfolio .line-divider {
     background-color: #2C3E50;
 }
 
-.portfolio .glyphicon-star {
+#portfolio .glyphicon-star {
     color: #2C3E50;
 }
 
@@ -175,12 +208,12 @@ p {
 
 /*_____Inizio About_____*/
 
-.about {
+#about {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.about p {
+#about p {
     text-align: left;
 }
 
@@ -189,6 +222,11 @@ p {
 
     .navbar-default .navbar-brand {
         font-size: 28px;
+    }
+
+    #main {
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 
     .thumbnail>img {
@@ -200,7 +238,7 @@ p {
 
 @media screen and (min-width: 768px){
 
-    .main {
+    #main {
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -213,7 +251,7 @@ p {
 
 @media screen and (min-width: 992px){
 
-    .main {
+    #main {
         padding-top: 70px;
         padding-bottom: 70px;
     }
