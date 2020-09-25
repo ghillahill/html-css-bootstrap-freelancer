@@ -7,14 +7,6 @@ body {
     padding-top: 70px;
 }
 
-#about .container {
-    max-width: 50%;
-}
-
-#contact .container {
-    max-width: 50%;
-}
-
 .distances {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -31,38 +23,13 @@ body {
     border-radius: 20px;
 }
 
-.form-group {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.form-control {
-    padding: 25px 12px;
-    border-top: none;
-    border-right: none;
-    border-bottom: 1px solid grey;
-    border-left: none;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 20px;
-    color: black;
-}
-
-.form-control:focus {
-    border-color: none;
-    outline: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-bottom: 1px solid grey;
-}
-
 .style-one {
     text-align: center;
     background-color: #1ABC9C;
     color: #fff;
 }
 
-.style-one .line-divider{
+.style-one .line-divider {
     display: inline-block;
     width: 10%;
     height: 4px;
@@ -70,7 +37,7 @@ body {
     background-color: #fff;
 }
 
-.style-one .glyphicon-star{
+.style-one .glyphicon-star {
     font-size: 35px;
     vertical-align: middle;
     padding-left: 12px;
@@ -78,12 +45,11 @@ body {
 }
 
 .style-two {
-    text-align: center;
     background-color: #fff;
     color: #2C3E50;
 }
 
-.style-two .line-divider{
+.style-two .line-divider {
     display: inline-block;
     width: 10%;
     height: 4px;
@@ -91,7 +57,7 @@ body {
     background-color: #2C3E50;
 }
 
-.style-two .glyphicon-star{
+.style-two .glyphicon-star {
     font-size: 35px;
     vertical-align: middle;
     padding-left: 12px;
@@ -116,21 +82,44 @@ body {
 }
 
 .btn-lg {
-    padding: 28px 32px;
+    padding: 16px 32px;
 }
 
+#contact .btn {
+    background-color: #1ABC9C;
+    border: 2px solid #1ABC9C;
+    border-radius: 8px;
+}
 
+#contact .btn-success {
+
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+
+    min-height: 102px;
+    max-height: 102px;
+
+    resize: none;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 .h1, h1 {
     font-size: 48px;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 .h2, h2 {
     font-size: 44px;
-    font-weight: 700;
-    text-transform: uppercase;
+}
+
+.h3, h3 {
+    font-size: 25px;
 }
 
 p {
@@ -213,11 +202,78 @@ p {
     padding-bottom: 50px;
 }
 
+#about .container {
+    max-width: 50%;
+}
+
 #about p {
     text-align: left;
 }
 
 /*_____Fine About_____*/
+
+/*_____Inizio Contact______ */
+
+#contact .container {
+    max-width: 50%;
+}
+
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    padding: 25px 12px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    border-left: none;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 20px;
+    color: black;
+}
+
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid grey;
+}
+
+
+/*_____Fine Contact______ */
+
+/*_____Inizio Footer______ */
+
+#info-box {
+    background-color: #2C3E50;
+}
+
+#info-box p {
+    font-size: 18px;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 25px;
+    line-height: 1.42;
+    border-radius: 25px;
+}
+
+.copyright {
+    padding: 15px 0;
+    font-size: 14px;
+    background-color: #1A252F;
+}
+
+/*_____Fine Footer______ */
+
 @media (min-width: 420px){
 
     .navbar-default .navbar-brand {
