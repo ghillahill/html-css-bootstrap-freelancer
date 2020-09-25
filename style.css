@@ -1,7 +1,10 @@
+/*_____General_____*/
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #fff;
+    padding-top: 70px;
 }
 
 .distances {
@@ -9,8 +12,90 @@ body {
     padding-bottom: 10px;
 }
 
+.thumbnail {
+    display: block;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+}
+
+.style-one {
+    text-align: center;
+    background-color: #1ABC9C;
+    color: #fff;
+}
+
+.style-one .line-divider{
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.style-one .glyphicon-star{
+    font-size: 35px;
+    vertical-align: middle;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.style-two {
+    text-align: center;
+    background-color: #fff;
+    color: #2C3E50;
+}
+
+.style-two .line-divider{
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2C3E50;
+}
+
+.style-two .glyphicon-star{
+    font-size: 35px;
+    vertical-align: middle;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #2C3E50;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.btn-default {
+    color: #fff;
+}
+
+.btn-default:hover {
+    color: #333;
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.btn-lg {
+    padding: 28px 32px;
+}
+
+
+
 .h1, h1 {
-    font-size: 45px;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.h2, h2 {
+    font-size: 44px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -18,6 +103,9 @@ body {
 p {
     font-weight: 400;
 }
+
+/*_____Inzio Navbar_____*/
+
 
 .navbar {
     border: none;
@@ -57,14 +145,9 @@ p {
 
 /*_____Fine Navbar_____*/
 
-/*_____Inizio Jumbo_____*/
+/*_____Inizio Main_____*/
 
-.jumbotron {
-    background-color: #1ABC9C;
-    text-align: center;
-}
-
-.jumbotron p {
+.main p {
     font-size: 25px;
 }
 
@@ -72,35 +155,71 @@ p {
     max-width: 240px;
 }
 
-.line-divider {
-    display: inline-block;
-    width: 10%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #fff;
+/*_____Fine Main_____*/
+
+/*_____Inizio Portfolio_____*/
+
+.portfolio .line-divider {
+    background-color: #2C3E50;
 }
 
-.glyphicon-star {
-    font-size: 35px;
-    vertical-align: middle;
-    padding-left: 12px;
-    padding-right: 12px;
+.portfolio .glyphicon-star {
+    color: #2C3E50;
 }
 
+.thumbnail .img-responsive {
+    border-radius: 20px;
+}
 
-/*_____Fine Jumbo_____*/
+/*_____Fine Portfolio_____*/
 
+/*_____Inizio About_____*/
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about p {
+    text-align: left;
+}
+
+/*_____Fine About_____*/
 @media (min-width: 420px){
 
     .navbar-default .navbar-brand {
         font-size: 28px;
     }
+
+    .thumbnail>img {
+        max-width: 80%;
+        height: auto;
+    }
+
 }
 
 @media screen and (min-width: 768px){
 
-    .jumbotron {
+    .main {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+
+    .thumbnail>img {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .main {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .thumbnail>img {
+        max-width: 100%;
+        height: auto;
     }
 }
